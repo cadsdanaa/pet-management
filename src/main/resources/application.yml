@@ -1,0 +1,3 @@
+petmanagement:
+  user: ${PET_MANAGEMENT_AUTH_USERNAME}
+  password: ${PET_MANAGEMENT_AUTH_PASSWORD}
