@@ -1,0 +1,9 @@
+version: '2.0'
+services:
+  mysql:
+    ports:
+      - "3306:3306"
+    image: mysql
+    environment:
+      -  MYSQL_ROOT_PASSWORD=root
+      -  MYSQL_DATABASE=petmanagement

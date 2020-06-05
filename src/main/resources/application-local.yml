@@ -1,3 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/petmanagement
+    username: root
+    password: root
+
+
 petmanagement:
   user: guest
   password: guest
