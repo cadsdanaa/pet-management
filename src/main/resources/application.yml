@@ -1,3 +1,9 @@
+spring:
+  datasource:
+    url: ${PET_MANAGEMENT_JDBC_URL}
+    username: ${PET_MANAGEMENT_JDBC_USERNAME}
+    password: ${PET_MANAGEMENT_JDBC_PASSWORD}
+
 petmanagement:
   user: ${PET_MANAGEMENT_AUTH_USERNAME}
   password: ${PET_MANAGEMENT_AUTH_PASSWORD}
